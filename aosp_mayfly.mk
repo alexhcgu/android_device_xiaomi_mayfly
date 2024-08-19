@@ -14,6 +14,9 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit from mayfly device
 $(call inherit-product, device/xiaomi/mayfly/device.mk)
 
+# Boot animaton
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := mayfly
 PRODUCT_MANUFACTURER := Xiaomi
